@@ -1,0 +1,21 @@
+{
+  "name": "audio-transcription-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . --scripts-prepend-node-path",
+    "rebuild": "electron-rebuild -v 31.3.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.3.1",
+    "electron-rebuild": "^3.2.9"
+  },
+  "dependencies": {
+    "ffi-napi": "^4.0.3",
+    "vosk": "^0.3.39"
+  }
+}
